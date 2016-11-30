@@ -1,0 +1,27 @@
+{
+  "name": "iot-ux1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot --inline --colors --content-base ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.assembla.com/Altimetrik^iot-healthcare.uxd.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^0.26.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "node-sass": "^3.13.0",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "webpack": "",
+    "webpack-dev-server": "",
+    "write-file-webpack-plugin": "^3.4.2"
+  },
+  "author": ""
+}
